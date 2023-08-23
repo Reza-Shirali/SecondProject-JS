@@ -1,0 +1,262 @@
+/* 
+
+=================================
+    Min Width
+=================================
+
+
+*/
+@media screen and (min-width: 576px) {
+  .wrapper-caption {
+    text-align: center;
+  }
+  .banner-caption--title {
+    font-size: 3.5rem;
+  }
+  .banner-caption--text {
+    max-width: 50rem;
+  }
+  .banner-caption__search {
+    width: 50rem;
+  }
+  .company-logo {
+    width: 10rem;
+  }
+  .popular-caption--title {
+    font-size: 1.35rem;
+  }
+  .popular-caption--user {
+    font-size: 1.2rem;
+  }
+  .popular-caption-arrow {
+    bottom: 7px;
+    left: -29px;
+    width: 5rem;
+    height: 5rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .wrapper-caption {
+    text-align: center;
+  }
+  .banner-caption--title {
+    max-width: 66rem;
+  }
+  .banner-caption--text {
+    max-width: 63rem;
+  }
+  .banner-caption__search {
+    width: 63rem;
+  }
+  .company-logo {
+    width: 14rem;
+  }
+  .popular-caption--title {
+    font-size: 1.2rem;
+  }
+  .popular-caption--user {
+    font-size: 1rem;
+  }
+  .popular-caption-arrow {
+    bottom: 12px;
+    left: -46px;
+    height: 4rem;
+    width: 4rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .menu-hamburger--btn {
+    display: none;
+  }
+  .nav-mobile {
+    display: none;
+  }
+  .wrapper-caption {
+    text-align: center;
+  }
+  .company-logo {
+    width: 18rem;
+  }
+  .popular-caption--title {
+    font-size: 1.4rem;
+  }
+  .popular-caption--user {
+    font-size: 1.2rem;
+  }
+  .popular-caption--price {
+    font-size: 2.2rem;
+  }
+  .popular-caption-arrow {
+    width: 5rem;
+    height: 5rem;
+    bottom: 3px;
+    left: 38px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .popular-caption--title {
+    font-size: 1.4rem;
+  }
+  .popular-caption--user {
+    font-size: 1.4rem;
+  }
+  .popular-caption--price {
+    font-size: 2.5rem;
+  }
+  .popular-caption-arrow {
+    width: 6rem;
+    height: 6rem;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .popular-caption--title {
+    font-size: 1.6rem;
+  }
+}
+
+/* Max */
+@media screen and (max-width: 1200px) {
+  .menu-items {
+    font-size: 1.4rem;
+  }
+  .menu-item {
+    padding: 2.5rem 1rem;
+  }
+}
+@media screen and (max-width: 992px) {
+  .menu-item {
+    display: none;
+  }
+  .nav-btn {
+    display: none;
+  }
+  .popular-item {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .popular-item--img {
+    width: 95%;
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .popular-item--caption {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .popular-caption--condition {
+    justify-content: center;
+  }
+  .popular-caption--keeper2 {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .popular-caption--text {
+    margin-right: 2;
+    margin-left: 2.6rem;
+  }
+  .article--keeper-active {
+    margin-top: 1rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .popular-item {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .popular-item--img {
+    width: 95%;
+  }
+  .popular-item--caption {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .popular-caption--keeper2 {
+    margin-right: 4.3rem;
+    margin-left: 0;
+  }
+  .article--boxes {
+    justify-content: center !important;
+  }
+  .article--title {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .wrapper-caption {
+    text-align: center;
+  }
+  .banner-caption--title {
+    font-size: 3rem;
+  }
+  .banner-caption--text {
+    max-width: 51rem;
+    font-size: 1.2rem;
+    margin-right: 1rem;
+  }
+  .banner-caption__search {
+    width: 100%;
+  }
+  .company-logo {
+    width: 11rem;
+  }
+  .company-logo:hover {
+    margin-bottom: 0;
+  }
+  .company-keeper {
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+  }
+  .popular-caption--title {
+    font-size: 1.4rem;
+  }
+  .popular-caption--user {
+    font-size: 1.2rem;
+  }
+  .popular-caption-arrow {
+    bottom: 7px;
+    left: -29px;
+    width: 5rem;
+    height: 5rem;
+  }
+}
+@media screen and (max-width: 390px) {
+  .wrapper-caption {
+    text-align: center;
+  }
+  .banner-caption--title {
+    font-size: 2rem;
+  }
+  .banner-caption--text {
+    width: 100%;
+    font-size: 1rem;
+    margin-right: 1rem;
+  }
+}
+@media screen and (max-width: 307px) {
+  .company-keeper {
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+  }
+  .company-logo {
+    width: 8rem;
+  }
+  .company-logo:hover {
+    margin-bottom: 0;
+  }
+  .cat-title__header {
+    font-size: 1.5rem;
+  }
+  .cat-title__caption {
+    font-size: 1.4rem;
+  }
+}
